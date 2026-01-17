@@ -3,10 +3,15 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TrendingTape from './components/TrendingTape';
 import Footer from './components/Footer';
+import SEO from './components/SEO';
 
 function App() {
   return (
     <div className="min-h-screen bg-background text-foreground font-sans selection:bg-primary/30">
+      <SEO
+        title="Shahbandar | Premium Digital Marketplace"
+        description="The safest place to buy and sell digital assets, game currencies, accounts, and services. Join thousands of satisfied users."
+      />
       <Navbar />
       <main>
         <Hero />
